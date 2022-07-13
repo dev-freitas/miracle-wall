@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
   return (
     <header>
-       <h1>There is power in the name of Jesus</h1>
+       <h6>There is power in the name of Jesus</h6>
     </header>
   )
 }

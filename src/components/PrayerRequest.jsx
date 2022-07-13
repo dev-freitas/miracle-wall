@@ -65,7 +65,7 @@ const PrayerRequest = () => {
         onChange={handleChange} 
         placeholder='Describe your need'></textarea>
         
-        <button type="submit">send</button>
+        <button type="submit">Send</button>
     </form>
   )
 }

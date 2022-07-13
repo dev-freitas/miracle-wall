@@ -25,14 +25,14 @@ function MiracleWall() {
       <img src={surrender} className="d-block w-100" alt="..." />
       <div className="carousel-caption  d-md-block">
         <br />
-        <p>For everyone strugling</p>
+        <p>For everyone struggling</p>
       </div>
     </div>
     <div className="carousel-item">
       <img src={humble} className="d-block w-100" alt="..." />
       <div className="carousel-caption  d-md-block">
         <br />
-        <p>when it seems impossible</p>
+        <p>When it seems impossible</p>
       </div>
     </div>
   </div>

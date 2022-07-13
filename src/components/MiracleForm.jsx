@@ -34,7 +34,7 @@ function MiracleForm() {
 
     
   return (
-    <form name="miracle" onSubmit={handleSubmit}>
+    <form name="miracle" onSubmit={handleSubmit} id='m-form'>
         <h2>Share your miracle</h2>
         <input 
         type="text" 

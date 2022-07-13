@@ -17,13 +17,13 @@ body {
 
 header {
       
-      h1 {
+      h6 {
       position: fixed;
       bottom: 0;
       left: 0;
       width: 100vw;
       margin: 0;
-      font-size: 5vw;
+      font-size: 20px;
       color: $fontColor;
       text-align: center;
       color: $fontColorDark;
@@ -47,7 +47,7 @@ header {
 
      a {
     color: $fontColorDark;
-   font-size: 1.3rem;
+   font-size: 20px;
    text-decoration: none;
    text-align: center;
  }
@@ -70,6 +70,7 @@ h1 {
 .contact-container {
   margin-top: 50px;
   padding-bottom: 20px;
+  margin-bottom: 10px;
 
   h2 {
     text-align: center;
@@ -81,6 +82,7 @@ h1 {
     text-align: center;
     margin: auto;
     margin-top: 30px;
+    // margin-bottom: 10px;
 
       .contact-details {
         display: grid;
