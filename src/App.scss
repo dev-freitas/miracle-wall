@@ -1,0 +1,232 @@
+$fontColor: #9bafb8;
+$fontColorDark: #ffbb98;
+$primary: #344648;
+$background: #fbe0c3;
+
+
+
+* {
+  font-weight: 200;
+}
+
+body {
+  background-color: white;
+  color: $primary;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+      
+      h1 {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100vw;
+      margin: 0;
+      font-size: 5vw;
+      color: $fontColor;
+      text-align: center;
+      color: $fontColorDark;
+      background-color: $primary;
+      padding-top: 8px;
+    } 
+}
+
+.main-nav {
+   display: flex;
+   flex-wrap: wrap;
+   background-color: $primary;
+   color: $fontColorDark;
+   justify-content: space-around;
+   align-items: center;
+   position: fixed;
+   width: 100vw;
+   top: 0;
+   left: 0;
+   z-index: 1;
+
+     a {
+    color: $fontColorDark;
+   font-size: 1.3rem;
+   text-decoration: none;
+   text-align: center;
+ }
+}
+
+.banner-img {
+width: 100vw;
+}
+
+h1 {
+  font-size: 5vw;
+  box-shadow: -1px -1px 12px 4px;
+  background-color: $fontColorDark;
+  text-align: center;
+  width: 100%;
+  color: $primary;
+  margin: 0;
+}
+
+.contact-container {
+  margin-top: 50px;
+  padding-bottom: 20px;
+
+  h2 {
+    text-align: center;
+    font-size: 7vw;
+  }
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+
+      .contact-details {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: $primary;
+        width: 100%;
+        padding: 5vw;
+        color: $background;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+
+        p {
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 5vw;
+
+          span {
+            font-size: 8vw;
+            font-weight: bold;
+            color: #fdfcfb;
+          }
+        }
+      }
+
+      form {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: $fontColorDark;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+          input, textarea {
+          margin: auto;
+          width: 80%;
+          border-top-style:hidden;
+          border-right-style: hidden;
+          border-left-style: hidden;
+          border-bottom-style: solid;
+          background-color: white;
+          font-size: 5vw;
+          font-weight: bold;
+          padding: 12px 20px;
+          }
+          
+          button {
+          margin: auto;
+          height: 30px;
+          width: 150px;
+          background-color: $primary;
+          color: $fontColorDark;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          margin-top: 25px;
+          }
+          
+          button:hover {
+          background-color: $fontColor;
+          }
+        }
+    
+  } 
+
+}
+
+.m-list nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: $fontColorDark;
+  font-size: 25px;
+  padding: 20px;
+
+  a {
+    color: $primary;
+  }
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 950px) {
+
+  header {
+      
+    h1 {
+    font-size: 1.6vw;
+  } 
+}
+
+h1 {
+  font-size: 1.5vw;
+}
+
+.contact-container {
+
+  h2 {
+    font-size: 2vw;
+  }
+  .contact {
+    grid-template-columns:1fr 1fr 1fr;
+
+      .contact-details {
+        p {
+          font-size: 1.5vw;
+
+          span {
+            font-size: 2vw;
+          }
+        }
+      }
+
+      form {
+          input, textarea {
+          font-size: 1.5vw;
+          }
+        }
+    
+  } 
+
+}
+
+.m-list nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: $fontColorDark;
+  font-size: 25px;
+  padding: 20px;
+
+  a {
+    color: $primary;
+  }
+}
+
+
+}
